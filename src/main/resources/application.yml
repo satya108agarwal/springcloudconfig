@@ -1,0 +1,12 @@
+---
+spring:
+  config:
+    import: "optional:configserver:"
+  application:
+    name: spring-cloud-config
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

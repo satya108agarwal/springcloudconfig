@@ -1,0 +1,9 @@
+---
+applications:
+  - name: spring-cloud-config
+    services:
+      - my-config-server
+    path: target/springcloudconfig-0.0.1-SNAPSHOT.jar
+    env:
+      SPRING_PROFILES_ACTIVE: production
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ }}'
