@@ -1,7 +1,7 @@
 # Config Server sample
 
 
-*Cook* is an example application demonstrating the use of Config Server for Tanzu Application Service. 
+Demo app is an example application demonstrating the use of Config Server for Tanzu Application Service. 
 (For information on the Config Server product in Tanzu Application Service, please https://docs.vmware.com/en/Spring-Cloud-Services-for-VMware-Tanzu/3.2/spring-cloud-services/GUID-config-server-index.html[see the documentation].)
 
 
